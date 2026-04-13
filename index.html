@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Отзывы | Мария | Корейский в кармане</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: linear-gradient(135deg, #fef5f0 0%, #ffe8e0 100%);
+            font-family: 'Segoe UI', 'Roboto', -apple-system, system-ui, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 1000px;
+            width: 100%;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 35px;
+        }
+
+        .channel-badge {
+            background: #ffe4d6;
+            display: inline-block;
+            padding: 8px 24px;
+            border-radius: 60px;
+            color: #c26a48;
+            font-size: 0.9rem;
+            font-weight: 500;
+            margin-bottom: 15px;
+        }
+
+        h1 {
+            font-size: 2.2rem;
+            color: #d47b5a;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+
+        .sub {
+            color: #b48c64;
+            font-size: 1rem;
+        }
+
+        .reviews-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .review-card {
+            background: white;
+            border-radius: 32px;
+            padding: 24px 28px;
+            border: 1px solid #ffded0;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.02);
+        }
+
+        .reviewer-name {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #5a3f2e;
+            margin-bottom: 10px;
+        }
+
+        .stars {
+            color: #f3b594;
+            font-size: 0.9rem;
+            letter-spacing: 2px;
+            margin-bottom: 12px;
+        }
+
+        .review-text {
+            font-size: 0.95rem;
+            line-height: 1.55;
+            color: #3b2c24;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 25px;
+            border-top: 1px dashed #ffdfce;
+            color: #c2a07e;
+            font-size: 0.85rem;
+        }
+
+        @media (max-width: 600px) {
+            .review-card {
+                padding: 18px 20px;
+            }
+            h1 {
+                font-size: 1.7rem;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <div class="channel-badge">🌸 Корейский в кармане</div>
+        <h1>💬 отзывы моих учеников</h1>
+        <div class="sub">Мария (마리 쌤) — репетитор корейского языка</div>
+    </div>
+
+    <div class="reviews-grid">
+        <div class="review-card">
+            <div class="reviewer-name">Алена</div>
+            <div class="stars">⭐ ⭐ ⭐ ⭐ ⭐</div>
+            <div class="review-text">Я очень рада, что выбрала Марию в качестве своего преподавателя корейского языка. С самого первого занятия почувствовала себя комфортно и мотивированно. Она умеет создавать приятную и поддерживающую атмосферу. Объяснения всегда понятные и доступные, а материалы интересные и актуальные.</div>
+        </div>
+
+        <div class="review-card">
+            <div class="reviewer-name">Мария</div>
+            <div class="stars">⭐ ⭐ ⭐ ⭐ ⭐</div>
+            <div class="review-text">Если б было 100 звезд – поставила бы сто. Потрясающий преподаватель, уважительно общается, при этом чувствуется дружелюбие, неравнодушие. На каждый урок есть чётко составленный план. С первых же уроков учитель подстроился под мой уровень. Сейчас готовимся к ТОПИК 1. Я уверена, что с Марией наберу высший балл!</div>
+        </div>
+
+        <div class="review-card">
+            <div class="reviewer-name">Дарья</div>
+            <div class="stars">⭐ ⭐ ⭐ ⭐ ⭐</div>
+            <div class="review-text">Спасибо огромное Марии за профессионализм и очень чуткий контакт с ребенком. Дочь занимается с удовольствием. Мария прекрасно находит общий язык с подростком, заинтересовала изучением языка, легко говорит на разные темы, связанные с культурой и историей Кореи.</div>
+        </div>
+
+        <div class="review-card">
+            <div class="reviewer-name">Алёна</div>
+            <div class="stars">⭐ ⭐ ⭐ ⭐ ⭐</div>
+            <div class="review-text">Учительница прекрасная, очень добрая и отзывчивая. Поможет влюбиться не только в язык, но и в саму страну Корею. Рассказывает о культуре и истории. Даёт интересное домашнее задание. У неё прекрасные и понятные презентации. Спасибо большое за занятия.</div>
+        </div>
+
+        <div class="review-card">
+            <div class="reviewer-name">Соня</div>
+            <div class="stars">⭐ ⭐ ⭐ ⭐ ⭐</div>
+            <div class="review-text">Я очень довольна своим репетитором. Мария профессиональна и компетентна. Объясняет сложные концепции легко и понятно. Постоянно проверяет мои знания и прогресс, что мотивирует стараться ещё больше. Атмосфера на уроках приятная и дружелюбная. Рекомендую всем!</div>
+        </div>
+
+        <div class="review-card">
+            <div class="reviewer-name">Наталья</div>
+            <div class="stars">⭐ ⭐ ⭐ ⭐ ⭐</div>
+            <div class="review-text">Дочка занимается с Марией уже несколько месяцев. Занятия проходят очень познавательно и интересно. Мы очень довольны, что занимаемся именно с Машей. Репетитора рекомендую однозначно! 🥰</div>
+        </div>
+
+        <div class="review-card">
+            <div class="reviewer-name">Елена</div>
+            <div class="stars">⭐ ⭐ ⭐ ⭐ ⭐</div>
+            <div class="review-text">Очень хороший учитель корейского языка. Дочь занимается с удовольствием. По времени без опозданий. Занятия очень интересные. Ребенок сам делает домашние задания и ждет следующего урока с нетерпением. Спасибо большое Марии за труд!</div>
+        </div>
+
+        <div class="review-card">
+            <div class="reviewer-name">Владислава</div>
+            <div class="stars">⭐ ⭐ ⭐ ⭐ ⭐</div>
+            <div class="review-text">Маша всегда на связи и готова помочь, очень интересно преподносит материал. Было очень комфортно заниматься. Рекомендую!</div>
+        </div>
+
+        <div class="review-card">
+            <div class="reviewer-name">Елизавета</div>
+            <div class="stars">⭐ ⭐ ⭐ ⭐ ⭐</div>
+            <div class="review-text">Мне очень понравилось! Мария очень приятная. С ней очень классно учить корейский. Поговорили и про корейский, и почему я захотела его изучать, даже про дорамы поговорили. Советую Марию!</div>
+        </div>
+
+        <div class="review-card">
+            <div class="reviewer-name">Соня</div>
+            <div class="stars">⭐ ⭐ ⭐ ⭐ ⭐</div>
+            <div class="review-text">Очень нравятся уроки с Марией! Каждую неделю жду с нетерпением. Очень приятный человек, который умеет хорошо объяснять темы! 😁 Очень советую записаться на уроки!</div>
+        </div>
+
+        <div class="review-card">
+            <div class="reviewer-name">Кристина</div>
+            <div class="stars">⭐ ⭐ ⭐ ⭐ ⭐</div>
+            <div class="review-text">Занимаемся с Марией с декабря. За эти небольшие 2,5 месяца я уже успела многое изучить. Преподаватель серьёзно настроена обучить ученика корейскому языку. С Марией легко найти общий язык, она не строгая, учиться у неё одно удовольствие. Репетитор знает не только тонкости языка, но и историю и традиции страны.</div>
+        </div>
+
+        <div class="review-card">
+            <div class="reviewer-name">Кристина</div>
+            <div class="stars">⭐ ⭐ ⭐ ⭐ ⭐</div>
+            <div class="review-text">Замечательный преподаватель, очень отзывчивая и добрая девушка. Терпеливо объясняет материал, даже если не получается схватить с первого раза, пока не станет понятно. Всё последовательно, без скачков с одной темы на другую. Постоянная практика и закрепление знаний, постоянная поддержка мотивируют заниматься дальше.</div>
+        </div>
+    </div>
+
+    <div class="footer">
+        🌸 <strong>Корейский в кармане</strong> — ваш корейский всегда с собой<br>
+        📩 @marikobip
+    </div>
+</div>
+</body>
+</html>
